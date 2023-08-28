@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 13" width="19" height="13">
+	<title>cloud;</title>
+	<defs>
+		<image  width="19" height="13" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAANCAMAAAB8UqUVAAAAAXNSR0IB2cksfwAAAFdQTFRFAAAAcH9/d32FeH2GeH2FeX6FeH2Fd39/d3+Hd36FeX6DeH2Fd3yFeH6Fd32FeHyEeH2Fd32FeHyFcHB/eH6FeH6GeHyEen+FeX2Fd3d/d3eHeH2EenqFnZqsWQAAAB10Uk5TABCA3//vnyAgz1+/z9/vf2CvvxCQ378w7yAgvzBKSOmqAAAAWUlEQVR4nGXMSQ6AIABD0arFCRVHHO9/ThWIAfzLl6aAK0kziryAV1nRVH8T2bSW2Lmlm9iUod4nDsZkYON7FtIznDAzTmH5WQfxMyK+IzXWeLjtwHEGoi/c83kEujV2gf4AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>
