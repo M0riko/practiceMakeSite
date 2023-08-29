@@ -17,6 +17,7 @@
 }
 
 nav {
+  position: relative;
   margin: 0 0 0 10px;
 }
 nav .accordion {
@@ -354,7 +355,7 @@ main .header_sort .header_sort_many {
   margin-top: 20px;
 }
 .promo .documents {
-  width: 600px;
+  min-width: 600px;
 }
 .promo .documents li {
   display: flex;
@@ -417,7 +418,7 @@ main .header_sort .header_sort_many {
 
 .comment {
   padding: 25px 30px 30px 30px;
-  height: 452px;
+  min-height: 452px;
   border-radius: 5px;
   background: #F9F8FF;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
@@ -535,6 +536,7 @@ main .header_sort .header_sort_many {
 }
 .vacancies_items {
   display: flex;
+  flex-wrap: wrap;
 }
 .vacancies_item {
   height: 140px;
@@ -542,11 +544,9 @@ main .header_sort .header_sort_many {
   background: #FFF;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
   text-align: center;
-  width: 260px;
+  min-width: 260px;
+  flex: 1;
   padding: 20px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
 }
 .vacancies_item-text {
   color: #3B434E;
@@ -566,9 +566,13 @@ main .header_sort .header_sort_many {
 }
 .vacancies .main {
   margin-right: 30px;
+  flex: 1;
+  min-width: 260px;
 }
 .vacancies_item-container {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .vacancies_item-container .vacancies_item {
   width: 300px;
@@ -691,6 +695,197 @@ footer .footer-text {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.burger {
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+  display: none;
+}
+.burger_line {
+  position: relative;
+  width: 20px;
+  background: #7653FC;
+  height: 2px;
+  display: block;
+}
+.burger_line::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 20px;
+  background: #7653FC;
+  height: 2px;
+  top: -5px;
+}
+.burger_line::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 20px;
+  background: #7653FC;
+  height: 2px;
+  top: 5px;
+}
+
+.block {
+  display: block;
+}
+
+@media (max-width: 1580px) {
+  .vacancies_items {
+    display: block;
+  }
+  .vacancies .main {
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 1380px) {
+  .promo_title-prof-text img {
+    display: none;
+  }
+}
+@media (max-width: 1440px) {
+  .promo .advantagesanddisadvantages {
+    display: block;
+  }
+  .promo .advantagesanddisadvantages_text {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .promo .documents {
+    min-width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .burger {
+    top: 0;
+    left: 20px;
+    position: absolute;
+    display: flex;
+  }
+  .vacancies_advantages-text::before {
+    top: -2px;
+  }
+  .container {
+    display: block;
+    padding-top: 20px;
+    width: 100%;
+  }
+  nav .accordion {
+    display: none;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  main {
+    margin: 0 20px 0 20px;
+  }
+  .vacancies_advantages-item {
+    max-width: 1000px;
+    margin: 0 0 0 100px;
+  }
+  .vacancies_advantages-text {
+    font-size: 15px;
+  }
+  .vacancies_advantages-title {
+    margin-top: 20px;
+  }
+  .vacancies_advantages-skill {
+    font-size: 8px;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .promo_title-prof {
+    display: block;
+  }
+  .promo_title-prof-img {
+    justify-content: center;
+  }
+  .promo_title-prof-price {
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 830px) {
+  .send-subtext {
+    display: block;
+    margin-top: 10px;
+  }
+  .comment_title {
+    flex-direction: column;
+  }
+}
+@media (max-width: 654px) {
+  main .header {
+    display: block;
+  }
+  main .header_sort {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .vacancies_advantages-skills {
+    flex-direction: column;
+    align-items: center;
+  }
+  .vacancies_advantages-skill {
+    font-size: 11px;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  .vacancies_advantages .skill-name {
+    text-align: center;
+  }
+  footer .footer-text {
+    font-size: 15px;
+    margin-right: 10px;
+    margin-left: 0;
+  }
+  .promo_title-prof-price {
+    flex-direction: column;
+    align-items: start;
+  }
+  .promo_title-prof-price-many {
+    margin-bottom: 10px;
+  }
+  .divider {
+    margin-top: 40px;
+  }
+  .vacancies_advantages-subtext {
+    font-size: 16px;
+  }
+  footer .footer-text {
+    font-size: 12px;
+  }
+  .promo_title-prof-text span {
+    font-size: 16px;
+  }
+}
+@media (max-width: 330px) {
+  .comment_title {
+    flex-direction: column;
+  }
+  main .header_text {
+    font-size: 20px;
+  }
+  .vacancies_title-text {
+    font-size: 20px;
+  }
+  .vacancies_title-text::after {
+    left: 220px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
