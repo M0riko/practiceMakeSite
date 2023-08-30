@@ -11,18 +11,23 @@
 </head>
 <body>
     <div class="container">
+        <div class="burger">
+            <span class="burger_line"></span>
+        </div>
         <nav>
-            <div class="logo">
-                <a href="#"><img src="img/logo.svg" alt="logo"></a>
-            </div>
-            <div class="burger">
-                <span class="burger_line"></span>
+
+            <div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+                <div class="logo">
+                    <a href="#"><img src="img/logo.svg" alt="logo"></a>
+                </div>
+                <button class="close btn none">&times;</button>
             </div>
             <form action="#" class="search-form">
                 <input type="text" name="search" id="input-text" placeholder="Поиск...">
                 <button><img src="img/search.svg" alt="search"></button>
             </form>
             <div class="accordion">
+
                 <div class="accordion_item">
                     <div class="accordion_img">
                         <img src="img/ed.svg" alt="ed">
@@ -86,7 +91,7 @@
                 <div class="header_sort">
                     <div class="header_sort_rating">
                         <span class="header_line"></span>
-                        <div class="header_sort_text active">
+                        <div class="header_sort_text active_color">
                             По рейтингу
                         </div>
                     </div>
@@ -355,5 +360,6 @@
             </div>
         </div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

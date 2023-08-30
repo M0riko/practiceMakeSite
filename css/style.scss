@@ -5,7 +5,12 @@
   font-family: "Noto Sans";
 }
 
+body {
+  background: #F5F6F8;
+}
+
 .container {
+  position: relative;
   padding-top: 50px;
   display: flex;
   max-width: 1590px;
@@ -67,9 +72,6 @@ nav {
       height: 49px;
       left: -32px;
       background: #DFDFDF;
-    }
-    .active {
-      color: #7653FC;
     }
   }
 
@@ -198,6 +200,10 @@ main {
 }
 
 .active {
+  color: #7653FC;
+}
+
+.active_color {
   color: #7653FC;
 }
 
@@ -627,6 +633,7 @@ main {
         justify-content: center;
         width: 50px;
         height: 50px;
+        line-height: 8px;
         background: #C8F8E4;
         border-radius: 100%;
         top: -10px;
@@ -739,8 +746,28 @@ footer {
   }
 }
 
-.block {
-  display: block;
+.active {
+  left: 0;
+  width: 280px;
+}
+
+.close {
+  width: 50px;
+  font-size: 30px;
+}
+
+.none {
+  display: none;
+}
+
+nav .accordion {
+  max-width: 230px;
+}
+
+nav .search-form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 1580px) {
@@ -774,31 +801,54 @@ footer {
 }
 
 @media (max-width: 1200px) {
+  main .header_text {
+    font-size: 23px;
+  }
   .burger {
-    top: 0;
+    top: 20px;
     left: 20px;
     position: absolute;
     display: flex;
+    z-index: 100;
   }
   .vacancies_advantages-text::before {
     top: -2px;
   }
   .container {
-    display: block;
+    display: flex;
     padding-top: 20px;
     width: 100%;
   }
   nav .accordion {
-    display: none;
+    transition: all .3s ease;
+    background: #F5F6F8;
+    height: 100%;
+    width: 230px;
+    display: flex;
+    z-index: 100;
+    top: -20px;
+    left: 0;
+    padding-left: 20px;
+    padding-top: 20px;
   }
   nav {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0;
+    transition: all .3s ease;
+    position: absolute;
+    left: -100%;
+    background: #F5F6F8;
+    height: 100%;
+    z-index: 1000;
+    max-width: 280px;
   }
+
   main {
-    margin: 0 20px 0 20px;
+    margin: 0;
+    width: 100%;
+    padding: 0 10px 0 10px;
   }
   .vacancies_advantages-item {
     max-width: 1000px;
@@ -819,6 +869,9 @@ footer {
   .promo_title-prof-price-many-mmm {
 
   }
+  main .header_text {
+    margin-left: 50px;
+  }
   .promo_title-prof {
     display: block;
   }
@@ -830,6 +883,7 @@ footer {
     width: 100%;
     margin-top: 20px;
   }
+
 }
 
 @media (max-width: 830px) {
