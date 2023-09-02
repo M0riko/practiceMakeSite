@@ -39,9 +39,7 @@ nav .accordion_img {
 nav .accordion_img .img_active {
   color: #7653FC;
   font-size: 18px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
 nav .accordion_img span {
   margin-left: 20px;
@@ -61,9 +59,7 @@ nav ul li {
   list-style-type: none;
   color: #787D85;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   margin-bottom: 10px;
 }
 nav ul li::before {
@@ -94,9 +90,7 @@ nav .search-form #input-text {
   border: none;
   color: #A4A4A4;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 nav .search-form button {
   width: 30px;
@@ -124,9 +118,7 @@ main .header .titles {
 main .header_text {
   color: #3B434E;
   font-size: 26px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
 main .header_num {
   display: flex;
@@ -151,9 +143,7 @@ main .header_sort {
 main .header_sort .header_sort_rating {
   margin-right: 45px;
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   display: flex;
   align-items: center;
 }
@@ -187,9 +177,7 @@ main .header_sort .header_line::before {
 main .header_sort .header_sort_many {
   color: #000;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 .active {
@@ -226,9 +214,7 @@ main .header_sort .header_sort_many {
   display: flex;
   color: #3B434E;
   font-size: 20px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
 }
 .promo_title-prof-text img {
   padding: 5px;
@@ -253,7 +239,6 @@ main .header_sort .header_sort_many {
   border: 1px solid #EBEBEB;
   color: #3B434E;
   font-size: 12px;
-  font-style: normal;
   font-weight: 500;
   line-height: 12px;
 }
@@ -276,7 +261,6 @@ main .header_sort .header_sort_many {
   background: #C8F8E4;
   color: #1DC37E;
   font-size: 12px;
-  font-style: normal;
   font-weight: 700;
   line-height: 12px;
   margin-left: 10px;
@@ -284,9 +268,7 @@ main .header_sort .header_sort_many {
 .promo_title-prof-price-many {
   color: #3B434E;
   font-size: 14px;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
 }
 .promo_title-prof-price-stars {
   flex-direction: column;
@@ -340,22 +322,17 @@ main .header_sort .header_sort_many {
 .promo .advantagesanddisadvantages_title {
   color: #3B434E;
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 .promo .advantagesanddisadvantages_subtext {
   color: #3B434E;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 .promo_descr {
   color: #3B434E;
   max-width: 100%;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
   margin-top: 20px;
@@ -403,7 +380,6 @@ main .header_sort .header_sort_many {
   color: #FFF;
   text-align: center;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 14px;
   margin-right: 20px;
@@ -417,9 +393,7 @@ main .header_sort .header_sort_many {
   color: #3B434E;
   text-align: center;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 .comment {
@@ -444,16 +418,13 @@ main .header_sort .header_sort_many {
 .comment_profile {
   color: #3B434E;
   font-size: 14px;
-  font-style: normal;
   font-weight: 700;
   line-height: 24px;
 }
 .comment_profile span {
   color: #3B434E;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 .comment_rating span {
   margin-right: 20px;
@@ -468,7 +439,6 @@ main .header_sort .header_sort_many {
   margin-top: 10px;
   color: #3B434E;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
 }
@@ -476,7 +446,6 @@ main .header_sort .header_sort_many {
 .send-subtext {
   color: #3B434E;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
 }
@@ -493,9 +462,7 @@ main .header_sort .header_sort_many {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
   color: #A4A4A4;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 .text {
@@ -517,9 +484,7 @@ main .header_sort .header_sort_many {
   position: relative;
   color: #3B434E;
   font-size: 22px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
 .vacancies_title-text::after {
   content: "hh.ru";
@@ -536,9 +501,7 @@ main .header_sort .header_sort_many {
   color: #FFF;
   text-align: center;
   font-size: 14px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
 }
 .vacancies_items {
   display: flex;
@@ -558,17 +521,13 @@ main .header_sort .header_sort_many {
   color: #3B434E;
   text-align: center;
   font-size: 20px;
-  font-style: normal;
   font-weight: 300;
-  line-height: normal;
 }
 .vacancies_item-many {
   color: #3B434E;
   text-align: center;
   font-size: 26px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 .vacancies .main {
   margin-right: 30px;
@@ -587,9 +546,7 @@ main .header_sort .header_sort_many {
   color: #7653FC;
   text-align: center;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 .vacancies_advantages {
   margin-top: 45px;
@@ -598,9 +555,7 @@ main .header_sort .header_sort_many {
   margin-bottom: 40px;
   color: #3B434E;
   font-size: 22px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   margin-top: 25px;
 }
 .vacancies_advantages-items {
@@ -616,9 +571,7 @@ main .header_sort .header_sort_many {
   position: relative;
   color: #3B434E;
   font-size: 20px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   margin-bottom: 20px;
 }
 .vacancies_advantages-title::before {
@@ -639,7 +592,6 @@ main .header_sort .header_sort_many {
   position: relative;
   color: #3B434E;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: 29px;
 }
@@ -655,7 +607,6 @@ main .header_sort .header_sort_many {
 .vacancies_advantages-subtext {
   color: #3B434E;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: 29px;
   margin-top: 30px;
@@ -670,9 +621,7 @@ main .header_sort .header_sort_many {
   color: #7653FC;
   text-align: center;
   font-size: 12px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   margin-right: 20px;
   display: flex;
   justify-content: center;
@@ -699,9 +648,7 @@ footer .footer_protections {
 footer .footer-text {
   color: #FFF;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
 
 .burger {
@@ -792,6 +739,12 @@ nav .search-form button {
   }
 }
 @media (max-width: 1200px) {
+  .logo_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
   main .header_text {
     font-size: 23px;
   }
@@ -857,7 +810,7 @@ nav .search-form button {
     flex-direction: column;
   }
   main .header_text {
-    margin-left: 50px;
+    margin-left: 80px;
   }
   .promo_title-prof {
     display: block;
@@ -879,8 +832,6 @@ nav .search-form button {
   .comment_title {
     flex-direction: column;
   }
-}
-@media (max-width: 654px) {
   main .header {
     display: block;
   }
@@ -888,6 +839,8 @@ nav .search-form button {
     justify-content: center;
     margin-top: 20px;
   }
+}
+@media (max-width: 654px) {
   .vacancies_advantages-skills {
     flex-direction: column;
     align-items: center;

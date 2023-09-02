@@ -34,9 +34,7 @@ nav {
       .img_active {
         color: #7653FC;
         font-size: 18px;
-        font-style: normal;
         font-weight: 500;
-        line-height: normal;
       }
       span {
         margin-left: 20px;
@@ -59,9 +57,7 @@ nav {
       list-style-type: none;
       color: #787D85;
       font-size: 14px;
-      font-style: normal;
       font-weight: 500;
-      line-height: normal;
       margin-bottom: 10px;
     }
     li::before {
@@ -93,9 +89,7 @@ nav {
       border: none;
       color: #A4A4A4;
       font-size: 16px;
-      font-style: normal;
       font-weight: 400;
-      line-height: normal;
     }
     button {
       width: 30px;
@@ -111,8 +105,6 @@ nav {
 
 main {
   margin: 0 85px 0 60px;
-  //width: 100%;
-
   .header {
     width: 100%;
     display: flex;
@@ -126,9 +118,7 @@ main {
     &_text {
       color: #3B434E;
       font-size: 26px;
-      font-style: normal;
       font-weight: 500;
-      line-height: normal;
     }
     &_num {
       display: flex;
@@ -153,9 +143,7 @@ main {
       .header_sort_rating{
         margin-right: 45px;
         font-size: 16px;
-        font-style: normal;
         font-weight: 700;
-        line-height: normal;
         display: flex;
         align-items: center;
       }
@@ -190,9 +178,7 @@ main {
       .header_sort_many {
         color: #000;
         font-size: 16px;
-        font-style: normal;
         font-weight: 400;
-        line-height: normal;
       }
 
     }
@@ -232,9 +218,7 @@ main {
       display: flex;
       color: #3B434E;
       font-size: 20px;
-      font-style: normal;
       font-weight: 600;
-      line-height: normal;
     }
     img {
       padding: 5px;
@@ -261,7 +245,6 @@ main {
     border: 1px solid #EBEBEB;
     color: #3B434E;
     font-size: 12px;
-    font-style: normal;
     font-weight: 500;
     line-height: 12px;
   }
@@ -284,7 +267,6 @@ main {
     background: #C8F8E4;
     color: #1DC37E;
     font-size: 12px;
-    font-style: normal;
     font-weight: 700;
     line-height: 12px;
     margin-left: 10px ;
@@ -292,9 +274,7 @@ main {
   &_title-prof-price-many {
     color: #3B434E;
     font-size: 14px;
-    font-style: normal;
     font-weight: 300;
-    line-height: normal;
   }
   &_title-prof-price-stars {
     flex-direction: column;
@@ -347,23 +327,18 @@ main {
     &_title {
       color: #3B434E;
       font-size: 16px;
-      font-style: normal;
       font-weight: 700;
-      line-height: normal;
     }
     &_subtext {
       color: #3B434E;
       font-size: 16px;
-      font-style: normal;
       font-weight: 400;
-      line-height: normal;
     }
   }
   &_descr {
     color: #3B434E;
     max-width: 100%;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     margin-top: 20px;
@@ -408,7 +383,6 @@ main {
   color: #FFF;
   text-align: center;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 14px;
   margin-right: 20px;
@@ -421,9 +395,7 @@ main {
     color: #3B434E;
     text-align: center;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
   }
 }
 .comment {
@@ -447,15 +419,12 @@ main {
   &_profile {
     color: #3B434E;
     font-size: 14px;
-    font-style: normal;
     font-weight: 700;
     line-height: 24px;
     span {
       color: #3B434E;
       font-size: 14px;
-      font-style: normal;
       font-weight: 400;
-      line-height: normal;
     }
   }
   &_rating {
@@ -473,7 +442,6 @@ main {
     margin-top: 10px;
     color: #3B434E;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
   }
@@ -482,7 +450,6 @@ main {
 .send-subtext {
   color: #3B434E;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
 }
@@ -500,9 +467,7 @@ main {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
   color: #A4A4A4;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 
 .text {
@@ -523,9 +488,7 @@ main {
     position: relative;
     color: #3B434E;
     font-size: 22px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     &::after {
       content: 'hh.ru';
       position: absolute;
@@ -541,9 +504,7 @@ main {
       color: #FFF;
       text-align: center;
       font-size: 14px;
-      font-style: normal;
       font-weight: 600;
-      line-height: normal;
     }
   }
   &_items {
@@ -564,17 +525,13 @@ main {
     color: #3B434E;
     text-align: center;
     font-size: 20px;
-    font-style: normal;
     font-weight: 300;
-    line-height: normal;
   }
   &_item-many {
     color: #3B434E;
     text-align: center;
     font-size: 26px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
   }
   .main {
     margin-right: 30px;
@@ -593,9 +550,7 @@ main {
     color: #7653FC;
     text-align: center;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
   }
   &_advantages {
     margin-top: 45px;
@@ -603,9 +558,7 @@ main {
       margin-bottom: 40px;
       color: #3B434E;
       font-size: 22px;
-      font-style: normal;
       font-weight: 500;
-      line-height: normal;
       margin-top: 25px;
     }
     &-items {
@@ -621,9 +574,7 @@ main {
       position: relative;
       color: #3B434E;
       font-size: 20px;
-      font-style: normal;
       font-weight: 700;
-      line-height: normal;
       margin-bottom: 20px;
       &::before {
         position: absolute;
@@ -644,7 +595,6 @@ main {
       position: relative;
       color: #3B434E;
       font-size: 18px;
-      font-style: normal;
       font-weight: 400;
       line-height: 29px;
       &::before {
@@ -660,7 +610,6 @@ main {
     &-subtext {
       color: #3B434E;
       font-size: 18px;
-      font-style: normal;
       font-weight: 400;
       line-height: 29px;
       margin-top: 30px;
@@ -675,9 +624,7 @@ main {
       color: #7653FC;
       text-align: center;
       font-size: 12px;
-      font-style: normal;
       font-weight: 500;
-      line-height: normal;
       margin-right: 20px;
       display: flex;
       justify-content: center;
@@ -704,9 +651,7 @@ footer {
   .footer-text {
     color: #FFF;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
   }
 }
 
@@ -801,6 +746,12 @@ nav .search-form button {
 }
 
 @media (max-width: 1200px) {
+  .logo_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
   main .header_text {
     font-size: 23px;
   }
@@ -870,7 +821,7 @@ nav .search-form button {
 
   }
   main .header_text {
-    margin-left: 50px;
+    margin-left: 80px;
   }
   .promo_title-prof {
     display: block;
@@ -894,9 +845,6 @@ nav .search-form button {
   .comment_title {
     flex-direction: column;
   }
-}
-
-@media (max-width: 654px) {
   main .header {
     display: block;
   }
@@ -904,6 +852,9 @@ nav .search-form button {
     justify-content: center;
     margin-top: 20px;
   }
+}
+
+@media (max-width: 654px) {
   .vacancies_advantages-skills {
     flex-direction: column;
     align-items: center;
